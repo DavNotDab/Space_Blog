@@ -8,7 +8,6 @@
     --font-family: 'Kanit', sans-serif;
 }
 
-
 /*********************************************/
 /*              NAV MENU STYLE               */
 /*********************************************/
@@ -25,6 +24,7 @@
     align-items: center;
 }
 
+/*For the website logo & title in the header. Make them all clickable and correctly aligned*/
 .logo_title_content a {
     display: flex;
     flex-direction: row;
@@ -37,11 +37,13 @@
     cursor: pointer;
 }
 
+/*Site's logo size*/
 .logo img {
     width: 60px;
     height: 60px;
 }
 
+/*Site's title style*/
 .title {
     font-family: var(--font-family);
     font-size: 40px;
@@ -50,6 +52,7 @@
     letter-spacing: 2px;
 }
 
+/*For the navigation menu items*/
 .nav_menu ul{
     list-style: none;
     display: flex;
@@ -62,6 +65,7 @@
     padding: 0 20px;
 }
 
+/* For the small animation when hovering over the menu items */
 .button a, .button .surprise{
     text-decoration: none;
     font-family: var(--font-family);

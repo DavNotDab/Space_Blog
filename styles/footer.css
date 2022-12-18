@@ -8,10 +8,15 @@
     --font-family: 'Kanit', sans-serif;
 }
 
+/*********************************************/
+/*               FOOTER STYLE                */
+/*********************************************/
+
 footer {
     background-color: var(--darkish-color);
 }
 
+/*Set the size of every image on the footer*/
 footer img {
     width: 40px;
     height: 40px;
@@ -26,6 +31,7 @@ footer img {
     padding: 20px;
 }
 
+/*For the website logo & title in the footer. Make them all clickable and correctly aligned*/
 .footer_title_content a {
     display: flex;
     flex-direction: row;
@@ -52,6 +58,7 @@ footer img {
     letter-spacing: 2px;
 }
 
+/*Set the size and display of the copyright information and GitHub link*/
 .author {
     display: flex;
     flex-direction: row;
@@ -77,6 +84,7 @@ footer img {
     margin: 0;
 }
 
+/*Set the size and display of the social media icons*/
 .footer_socialMedia ul {
     display: flex;
     flex-direction: row;
