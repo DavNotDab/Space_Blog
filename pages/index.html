@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
     <div class="background">
@@ -34,7 +36,7 @@
                     <ul>
                         <li>
                             <div class="button">
-                                <a href="./blog.html">Blog</a>
+                                <a href="#" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">Blog</a>
                             </div>
                         </li>
                         <li>
@@ -83,7 +85,7 @@
                         </p>
                     </div>
                     <div class="visit-blog-icon">
-                        <button>
+                        <button class="visit-blog-arrow" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">
                             <img src="../images/arrow-down.png" alt="arrow-down">
                         </button>
                     </div>
@@ -116,9 +118,9 @@
                                 the biggest galaxies. Get to know the unknown by reaching the limits of
                                 human comprehension about what is up there.
                             </p>
-                            <span class="entry_readFullArticle">
+                            <section class="entry_readFullArticle">
                                 <a href="./blog.html">Read the full article</a>
-                            </span>
+                            </section>
                         </section>
                     </div>
                 </article>
@@ -149,14 +151,54 @@
                     </div>
                 </article>
             </div>
-
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
     </main>
 
     <footer>
-
+        <div class="footer">
+            <div class="footer_content">
+                <div class="logo_title">
+                    <button class="logo_title_content">
+                        <div class="footer_logo">
+                            <img src="../images/logo-bright.png" alt="logo">
+                        </div>
+                        <div class="footer_title">
+                            Space Blog
+                        </div>
+                    </button>
+                </div>
+                <div class="footer_socialMedia">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="../images/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="../images/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="../images/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="author">
+                    <div class="github">
+                        <a href="https://github.com/DavNotDab">
+                            <img src="../images/github.svg" alt="logo_github" class="gitLogo">
+                            <span id="name">DavNotDab</span>
+                        </a>
+                    </div>
+                    <div class="copy">
+                        <span>&copy; David Ballesteros Ortiz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
