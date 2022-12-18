@@ -26,9 +26,27 @@ footer img {
     padding: 20px;
 }
 
+.footer_title_content a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.footer_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.footer_title_content:hover {
+    cursor: pointer;
+}
+
 .footer_title {
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
