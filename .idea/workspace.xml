@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Polished some details &amp; minor errors">
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved accessibility">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +109,11 @@
       <workItem from="1671747853295" duration="246000" />
       <workItem from="1672492950512" duration="22000" />
       <workItem from="1673254763122" duration="2734000" />
+      <workItem from="1673265140898" duration="190000" />
+      <workItem from="1673508546038" duration="18000" />
+      <workItem from="1673857945403" duration="5673000" />
+      <workItem from="1673940387830" duration="14000" />
+      <workItem from="1674033932204" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -171,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671443472872</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Improved accessibility">
+      <created>1673265187184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673265187184</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Improved accessibility">
+      <created>1673265238655</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673265238655</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +217,7 @@
     <MESSAGE value="Finished landing page" />
     <MESSAGE value="Added blog's article page" />
     <MESSAGE value="Polished some details &amp; minor errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polished some details &amp; minor errors" />
+    <MESSAGE value="Improved accessibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved accessibility" />
   </component>
 </project>

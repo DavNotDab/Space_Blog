@@ -67,7 +67,12 @@
                 <h1>3, 2, 1... Lift off!</h1>
             </section>
             <div class="article_image">
-                <img src="../images/dawn2.jpg" alt="article-image">
+                <picture>
+                    <source type="image/jpeg"  media="(max-width: 799px)" srcset="../images/Resized/dawn-360.jpg" />
+                    <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="../images/Resized/dawn-720.jpg" />
+                    <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="../images/Resized/dawn-1080.jpg" />
+                    <img src="../images/Resized/dawn-1600.jpg" alt="An amazing dawn image" />
+                </picture>
             </div>
             <div class="article_info">
                 <p class="article_date">21/11/2022</p>

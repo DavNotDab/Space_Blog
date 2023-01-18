@@ -17,7 +17,7 @@
         <video autoplay muted loop id="backgroundVideo">
             <source src="../images/backgroundVideo.mp4" type="video/mp4">
         </video>
-        <img src="../images/backgroundStars.jpg" alt="background" id="backgroundImage">
+        <img src="../images/Resized/backgroundStars.jpg" alt="background" id="backgroundImage">
     </div>
 
     <header>
@@ -104,7 +104,12 @@
             <div class="blog-content">
                 <div class="blog_entry">
                     <div class="entry_image">
-                        <img src="../images/liftOff.jpg" alt="blogEntry1">
+                        <picture>
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="../images/Resized/liftOff-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="../images/Resized/liftOff-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="../images/Resized/liftOff-1080.jpg" />
+                            <img src="../images/Resized/liftOff-1600.jpg" alt="An amazing liftoff image" />
+                        </picture>
                     </div>
                     <div class="entry_content">
                         <section class="entry_heading">
@@ -130,7 +135,12 @@
 
                 <div class="blog_entry">
                     <div class="entry_image">
-                        <img src="../images/eclipse.jpg" alt="blogEntry2">
+                        <picture>
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="../images/Resized/eclipse-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="../images/Resized/eclipse-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="../images/Resized/eclipse-1080.jpg" />
+                            <img src="../images/Resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
+                        </picture>
                     </div>
                     <div class="entry_content">
                         <section class="entry_heading">
