@@ -45,6 +45,16 @@ body {
     width: 100%;
 }
 
+#backgroundVideo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+
+
 /*Style for the background image below the video on the main page*/
 #backgroundImage {
     position: absolute;
@@ -59,8 +69,8 @@ body {
 
 /*The background in the blog's page is different because there is no video*/
 .body_blog {
-    background-image: url("../images/backgroundStars.jpg");
-    background-size: cover;
+    background-image: url("../images/Resized/backgroundStars.jpg");
+    background-size: 100vw;
 }
 
 /*********************************************/
@@ -137,7 +147,7 @@ body {
     color: var(--accent-color);
 }
 
-.entry_heading h2 {
+.entry_heading h2, h5 {
     margin: 0;
 }
 
@@ -309,8 +319,8 @@ body {
         gap: 100px;
     }
 
-    .entry_heading {
-        font-size: 18px;
+    .entry_heading h2{
+        font-size: 22px;
     }
 
     .entry_image img {
@@ -324,5 +334,27 @@ body {
 
 
 }
+
+
+@media (max-width: 800px) {
+
+    #backgroundVideo {
+        display: none;
+    }
+
+    #backgroundVideo2 {
+        display: block;
+    }
+
+    #backgroundImage {
+        top: 50vw;
+    }
+
+
+
+}
+
+
+
 
 
