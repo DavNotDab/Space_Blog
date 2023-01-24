@@ -13,7 +13,6 @@
 /*********************************************/
 
 .menu {
-    height: 120px;
     padding: 25px 40px;
 }
 
@@ -46,7 +45,7 @@
 /*Site's title style*/
 .title {
     font-family: var(--font-family);
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -86,4 +85,125 @@
 
 .surprise {
     color: var(--accent-color);
+}
+
+
+@media (min-width: 2400px) {
+
+    .title {
+        font-size: 66px;
+    }
+
+    .menu {
+        padding: 25px 40px;
+    }
+
+    .nav_menu ul{
+        gap: 60px;
+        padding: 0 35px;
+        margin: 15px 0;
+    }
+
+    .logo img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .button a, .button .surprise{
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width: 1500px) {
+
+    .title {
+        font-size: 2.7vw;
+    }
+
+    .menu {
+        padding: 15px 35px;
+    }
+
+    .nav_menu ul{
+        gap: 30px;
+        padding: 0 30px;
+        margin: 5px 0;
+    }
+
+    .logo img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .button a, .button .surprise{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .logo img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .menu {
+        padding: 15px 30px;
+    }
+
+    .button a, .button .surprise{
+        font-size: 20px;
+    }
+
+    .nav_menu ul{
+        gap: 15px;
+        padding: 0 20px;
+        margin: 5px 0;
+    }
+
+
+}
+
+@media (max-width: 1050px) {
+
+    .menu {
+        padding: 10px 30px;
+    }
+
+    .button a, .button .surprise{
+        font-size: 18px;
+    }
+
+    .nav_menu ul{
+        gap: 10px;
+        padding: 0 10px;
+        margin: 5px 0;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .logo img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .menu {
+        padding: 10px 20px;
+    }
+
+    .button a, .button .surprise{
+        font-size: 16px;
+    }
+
+    .nav_menu ul{
+        gap: 0;
+        padding: 0 10px;
+        margin: 5px 0;
+    }
+
 }

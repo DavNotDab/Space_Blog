@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved accessibility">
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved responsiveness">
+      <change afterPath="$PROJECT_DIR$/images/Resized/liftOff2-1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Resized/liftOff2-1600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Resized/liftOff2-360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Resized/liftOff2-720.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/backgroundStars2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/liftOff2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgroundVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgroundVideo.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +121,14 @@
       <workItem from="1673508546038" duration="18000" />
       <workItem from="1673857945403" duration="5673000" />
       <workItem from="1673940387830" duration="14000" />
-      <workItem from="1674033932204" duration="1065000" />
+      <workItem from="1674033932204" duration="4627000" />
+      <workItem from="1674063063561" duration="609000" />
+      <workItem from="1674212733678" duration="1025000" />
+      <workItem from="1674300270798" duration="24000" />
+      <workItem from="1674300308980" duration="641000" />
+      <workItem from="1674428256758" duration="3477000" />
+      <workItem from="1674460829615" duration="7911000" />
+      <workItem from="1674493871190" duration="5162000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -192,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673265238655</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Improved responsiveness">
+      <created>1674035111067</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674035111067</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +240,7 @@
     <MESSAGE value="Added blog's article page" />
     <MESSAGE value="Polished some details &amp; minor errors" />
     <MESSAGE value="Improved accessibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved accessibility" />
+    <MESSAGE value="Improved responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved responsiveness" />
   </component>
 </project>
