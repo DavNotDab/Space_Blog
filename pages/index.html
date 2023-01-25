@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <script src="../scripts/script.js"></script>
 </head>
 <body>
     <div class="background">
@@ -28,43 +29,46 @@
                 <div class="logo_title">
                     <div class="logo_title_content">
                         <a href="index.html">
-                            <div class="logo">
-                                <img src="../images/logo-bright.png" alt="logo">
-                            </div>
+                            <img src="../images/logo-bright.png" alt="logo" class="logo">
                             <div class="title">
-                                Space Blog
+                                <span>Space Blog</span>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="nav_menu">
-                    <ul>
-                        <li>
-                            <div class="button">
-                                <a href="#" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">Blog</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="button">
-                                <a href="./news.html">News</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="button">
-                                <a href="./gallery.html">Gallery</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="button">
-                                <a href="./about.html">About</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="button">
-                                <button class="surprise">Surprise me!</button>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="nav_content">
+                    <div class="nav_menu">
+                        <ul>
+                            <li>
+                                <div class="button">
+                                    <a href="#" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">Blog</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="button">
+                                    <a href="./news.html">News</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="button">
+                                    <a href="./gallery.html">Gallery</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="button">
+                                    <a href="./about.html">About</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="button">
+                                    <button class="surprise">Surprise me!</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="burger_menu_icon" onclick="toggleMenu()">
+
+                    </div>
                 </div>
             </nav>
         </div>

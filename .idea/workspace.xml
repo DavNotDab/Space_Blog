@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved responsibility">
-      <change afterPath="$PROJECT_DIR$/images/backgroundVideo2.mp4" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved responsibility &amp; load time">
+      <change afterPath="$PROJECT_DIR$/images/burgerIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/closeIcon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgroundVideo.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
@@ -125,6 +127,8 @@
       <workItem from="1674493871190" duration="5162000" />
       <workItem from="1674545032168" duration="139000" />
       <workItem from="1674587462503" duration="1859000" />
+      <workItem from="1674650385137" duration="235000" />
+      <workItem from="1674664503374" duration="7416000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>

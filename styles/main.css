@@ -1,7 +1,7 @@
 
 /*Global variables*/
 :root {
-    --dark-color: #1D1A1D;
+    --dark-color: rgba(29, 26, 29, 0.47);
     --darkish-color: #505261;
     --light-color: #F7F6EF;
     --accent-color: #DB9562;
@@ -53,8 +53,6 @@ body {
     display: none;
 }
 
-
-
 /*Style for the background image below the video on the main page*/
 #backgroundImage {
     position: absolute;
@@ -65,7 +63,6 @@ body {
     -webkit-mask-image: linear-gradient(to top, var(--dark-color) 90%, transparent);
     z-index: -4;
 }
-
 
 /*The background in the blog's page is different because there is no video*/
 .body_blog {
@@ -350,6 +347,11 @@ body {
         top: 50vw;
     }
 
+
+    .entry_image img {
+        width: 100px;
+        height: 100px;
+    }
 
 
 }

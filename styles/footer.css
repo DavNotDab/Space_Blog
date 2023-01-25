@@ -103,3 +103,14 @@ footer img {
         padding: 40px;
     }
 }
+
+@media (max-width: 1200px) {
+    .footer_socialMedia ul {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .author {
+        flex-direction: column;
+    }
+}
