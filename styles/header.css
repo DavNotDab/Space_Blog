@@ -223,6 +223,10 @@
         padding: 0;
     }
 
+    .title {
+        font-size: 4vw;
+    }
+
     .logo_title {
         padding: 15px 20px;
     }
@@ -259,6 +263,20 @@
 
     .nav_menu ul.active {
         display: flex;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 5vw;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 6vw;
     }
 
 }

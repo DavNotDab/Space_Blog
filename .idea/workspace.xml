@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved responsibility &amp; load time">
-      <change afterPath="$PROJECT_DIR$/images/burgerIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/closeIcon.svg" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved responsibility">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/backgroundVideo3.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/images/backgroundVideo3.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
@@ -128,7 +127,10 @@
       <workItem from="1674545032168" duration="139000" />
       <workItem from="1674587462503" duration="1859000" />
       <workItem from="1674650385137" duration="235000" />
-      <workItem from="1674664503374" duration="7416000" />
+      <workItem from="1674664503374" duration="8232000" />
+      <workItem from="1674717742930" duration="596000" />
+      <workItem from="1674720643812" duration="107000" />
+      <workItem from="1675063866338" duration="8602000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -228,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674545136206</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added burger menu icons">
+      <created>1674672883171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674672883171</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Improved responsibility">
+      <created>1674672905050</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674672905050</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +272,7 @@
     <MESSAGE value="Improved accessibility" />
     <MESSAGE value="Improved responsiveness" />
     <MESSAGE value="Images optimized" />
+    <MESSAGE value="Added burger menu icons" />
     <MESSAGE value="Improved responsibility" />
     <option name="LAST_COMMIT_MESSAGE" value="Improved responsibility" />
   </component>

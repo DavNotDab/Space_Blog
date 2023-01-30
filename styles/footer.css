@@ -42,10 +42,6 @@ footer img {
     text-decoration: none;
 }
 
-.footer_logo {
-    width: 60px;
-    height: 60px;
-}
 
 .footer_title_content:hover {
     cursor: pointer;
@@ -107,10 +103,42 @@ footer img {
 @media (max-width: 1200px) {
     .footer_socialMedia ul {
         gap: 10px;
-        flex-direction: column;
     }
 
     .author {
         flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .footer_title_content a {
+        gap: 0;
+    }
+
+    .footer_title {
+        font-size: 20px;
+    }
+
+    .footer_socialMedia ul {
+        gap: 0;
+    }
+
+    .author {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .footer_content {
+        flex-direction: column;
+    }
+
+    .author {
+        flex-direction: row;
     }
 }
