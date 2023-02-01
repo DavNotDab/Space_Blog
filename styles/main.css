@@ -45,7 +45,7 @@ body {
     width: 100%;
 }
 
-#backgroundVideo2, #backgroundVideo3 {
+#backgroundVideo2, #backgroundVideo3, #backgroundVideo4 {
     position: absolute;
     top: 0;
     left: 0;
@@ -212,51 +212,43 @@ body {
 
 @media (min-width: 2000px) {
 
+    body {
+        font-size: 2em;
+    }
+
     .welcoming {
         margin: 5% 0 0 4%;
-        width: 500px;
+        width: 30vw;
     }
 
     .welcoming-heading {
         font-weight: 400;
-        font-size: 24px;
         letter-spacing: 1px;
-    }
-
-    .welcoming-content {
-        font-size: 24px;
-    }
-
-    .blog-heading {
-        font-size: 40px;
     }
 
     .blog-content {
         gap: 100px;
     }
 
-    .entry_heading {
-        font-size: 20px;
-    }
-
-    .entry_text {
-        font-size: 20px;
-    }
-
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2600px) {
+
+    body {
+        font-size: 2.5em;
+    }
 
     .welcoming {
         margin: 5% 0 0 4%;
-        width: 400px;
+        width: 800px;
     }
 
     .welcoming-heading {
         font-weight: 400;
-        font-size: 14px;
         letter-spacing: 1px;
     }
+
+
 
 }
 
@@ -413,6 +405,18 @@ body {
 }
 
 @media (max-width: 450px) {
+
+    #backgroundVideo3 {
+        display: none;
+    }
+
+    #backgroundVideo4 {
+        display: block;
+    }
+
+    #backgroundImage {
+        top: 80vw;
+    }
 
     .welcoming {
         margin: 5% 0 0 5%;
