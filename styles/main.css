@@ -23,7 +23,7 @@
 body {
     margin: 0;
     font-family: var(--font-family);
-    background-image: url(../images/Resized/backgroundStars.jpg);
+    background-image: url(../media/img/resized/bgImage-1080.jpg);
     background-size: 100vw;
 }
 
@@ -60,7 +60,7 @@ body {
 
 /*The background in the blog's page is different because there is no video*/
 .body_blog {
-    background-image: url("../images/Resized/backgroundStars.jpg");
+    background-image: url("../media/img/resized/bgImage-1080.jpg");
     background-size: 100vw;
 }
 
