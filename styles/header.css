@@ -28,15 +28,58 @@
     flex-direction: row;
 }
 
-.burger_menu_icon {
+.menu-btn {
     display: none;
-    background-image: url("../images/burgerIcon.svg");
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
     width: 42px;
     height: 42px;
-    transition: all 0.5s ease-in;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
+.menu-btn__burger {
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(45, 45, 45, 0.2);
+    background-color: var(--light-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before, .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(45, 45, 45, 0.2);
+    background-color: var(--light-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-10px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(10px);
+}
+
+
+/*Burger menu animation*/
+.menu-btn.open .menu-btn__burger {
+    transform: rotate(315deg);
+    background-color: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(0) translate(0, 0);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(90deg) translate(0, 0);
+}
 
 
 /*For the website logo & title in the header. Make them all clickable and correctly aligned*/
@@ -101,6 +144,15 @@
 
 .surprise {
     color: var(--accent-color);
+}
+
+/* Changes the display when the mobile menu is active*/
+.nav_content.active {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav_menu ul.active {
+    display: flex;
 }
 
 
@@ -223,6 +275,10 @@
         padding: 0;
     }
 
+    .menu-btn {
+        display: flex;
+    }
+
     .title {
         font-size: 4vw;
     }
@@ -255,14 +311,6 @@
 
     .burger_menu_icon {
         display: block;
-    }
-
-    .nav_content.active {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    .nav_menu ul.active {
-        display: flex;
     }
 
 }

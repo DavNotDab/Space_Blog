@@ -45,14 +45,6 @@ body {
     width: 100%;
 }
 
-#backgroundVideo2, #backgroundVideo3, #backgroundVideo4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: none;
-}
-
 /*Style for the background image below the video on the main page*/
 #backgroundImage {
     position: absolute;
@@ -327,14 +319,6 @@ body {
 
 @media (max-width: 800px) {
 
-    #backgroundVideo {
-        display: none;
-    }
-
-    #backgroundVideo2 {
-        display: block;
-    }
-
     #backgroundImage {
         top: 50vw;
     }
@@ -364,14 +348,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
-    #backgroundVideo2 {
-        display: none;
-    }
-
-    #backgroundVideo3 {
-        display: block;
-    }
 
     #backgroundImage {
         top: 70vw;
