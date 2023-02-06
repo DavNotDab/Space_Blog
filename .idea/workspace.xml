@@ -4,54 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Improved load time &amp; menu animation">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Reworked directory configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/backgroundStars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/bgImage-1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/dawn-1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/dawn-1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/dawn-1600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/dawn-1600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/dawn-360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/dawn-360.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/dawn-720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/dawn-720.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/eclipse-1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/eclipse-1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/eclipse-1600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/eclipse-1600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/eclipse-360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/eclipse-360.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/eclipse-720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/eclipse-720.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff-1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff-1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff-1600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff-1600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff-360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff-360.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff-720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff-720.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff2-1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff2-1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff2-1600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff2-1600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff2-360.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff2-360.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Resized/liftOff2-720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/resized/liftOff2-720.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/arrow-down.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundStars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/backgroundStars.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundStars2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/bgImage-1600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/video/bgVideo-1080.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundVideo2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/video/bgVideo-720.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundVideo3.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/video/bgVideo-480.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/backgroundVideo4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/video/bgVideo-360.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/burgerIcon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/closeIcon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dawn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/dawn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dawn2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/dawn2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/decoyVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/media/video/bgVideo-bait.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/eclipse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/eclipse.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/liftOff.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/liftOff.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/liftOff2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/original/liftOff2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-bright.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/logo-bright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/startsVertical.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/img/icons/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/videoLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/videoLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,26 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/David/OneDrive/DAW/SEGUNDO/Diseño de Interfaces/Space_Blog",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/OneDrive/DAW/SEGUNDO/Diseño de Interfaces/Space_Blog&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\David\OneDrive\DAW\SEGUNDO\Diseño de Interfaces\Space_Blog\media\img\icons" />
@@ -193,7 +150,8 @@
       <workItem from="1675412801775" duration="220000" />
       <workItem from="1675414353692" duration="868000" />
       <workItem from="1675415728232" duration="5042000" />
-      <workItem from="1675424909000" duration="6441000" />
+      <workItem from="1675424909000" duration="6583000" />
+      <workItem from="1675598972907" duration="6809000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -321,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675428113943</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Reworked directory configuration">
+      <created>1675431694641</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675431694641</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +317,7 @@
     <MESSAGE value="Improved responsibility" />
     <MESSAGE value="Improved responsiveness" />
     <MESSAGE value="Improved load time &amp; menu animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved load time &amp; menu animation" />
+    <MESSAGE value="Reworked directory configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked directory configuration" />
   </component>
 </project>
