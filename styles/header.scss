@@ -283,6 +283,7 @@ root {
         padding: 15px 20px;
     }
     .nav_content {
+        display: none;
         position: absolute;
         top: 0;
         right: 0;
@@ -291,6 +292,7 @@ root {
         animation: close-menu 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     }
     .nav_content.active {
+        display: flex;
         background-color: $background-color_1;
         animation: open-menu 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     }
