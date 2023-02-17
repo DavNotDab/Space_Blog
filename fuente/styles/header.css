@@ -126,10 +126,13 @@ root {
   margin: 11px 0;
 }
 
-.button {
+.nav-button {
   padding: 0 20px;
 }
-.button a, .button .surprise {
+.nav-button a {
+  color: var(--light-color);
+}
+.nav-button a, .nav-button .surprise {
   text-decoration: none;
   font-family: var(--font-family);
   font-size: 24px;
@@ -141,11 +144,11 @@ root {
   background-size: 0 3px;
   transition: background-size 0.3s;
 }
-.button a:hover, .button .surprise:hover {
+.nav-button a:hover, .nav-button .surprise:hover {
   cursor: pointer;
   background-size: 100% 3px;
 }
-.button .a:active {
+.nav-button .a:active {
   cursor: pointer;
   background-size: 100% 3px;
 }
@@ -170,10 +173,10 @@ root {
     width: 72px;
     height: 72px;
   }
-  .button a {
+  .nav-button a {
     font-size: 30px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 30px;
   }
 }
@@ -193,10 +196,10 @@ root {
     width: 48px;
     height: 48px;
   }
-  .button a {
+  .nav-button a {
     font-size: 20px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 20px;
   }
 }
@@ -208,10 +211,10 @@ root {
   .menu {
     padding: 15px 30px;
   }
-  .button a {
+  .nav-button a {
     font-size: 20px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 20px;
   }
   .nav_menu ul {
@@ -224,13 +227,13 @@ root {
   .menu {
     padding: 10px 20px;
   }
-  .button {
+  .nav-button {
     padding: 0 15px;
   }
-  .button a {
+  .nav-button a {
     font-size: 18px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 18px;
   }
   .nav_menu ul {
@@ -243,10 +246,10 @@ root {
     width: 42px;
     height: 42px;
   }
-  .button a {
+  .nav-button a {
     font-size: 16px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 16px;
   }
 }
@@ -283,10 +286,10 @@ root {
     margin: 80px 60px 50px 40px;
     z-index: 1;
   }
-  .button a {
+  .nav-button a {
     font-size: 20px;
   }
-  .button .surprise {
+  .nav-button .surprise {
     font-size: 20px;
   }
   .burger_menu_icon {

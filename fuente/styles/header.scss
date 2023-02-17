@@ -129,7 +129,8 @@ root {
         margin: 11px 0;
     }
 }
-.button {
+.nav-button {
+    a {color: var(--light-color)}
     padding: 0 20px;
     a, .surprise {
         text-decoration: none;
@@ -175,7 +176,7 @@ root {
         width: 72px;
         height: 72px;
     }
-    .button {
+    .nav-button {
         a {
             font-size: 30px;
         }
@@ -202,7 +203,7 @@ root {
         width: 48px;
         height: 48px;
     }
-    .button {
+    .nav-button {
         a {
             font-size: 20px;
         }
@@ -219,7 +220,7 @@ root {
     .menu {
         padding: 15px 30px;
     }
-    .button {
+    .nav-button {
         a {
             font-size: 20px;
         }
@@ -239,7 +240,7 @@ root {
     .menu {
         padding: 10px 20px;
     }
-    .button {
+    .nav-button {
         padding: 0 15px;
         a {
             font-size: 18px;
@@ -260,7 +261,7 @@ root {
         width: 42px;
         height: 42px;
     }
-    .button {
+    .nav-button {
         a {
             font-size: 16px;
         }
@@ -304,7 +305,7 @@ root {
             z-index: 1;
         }
     }
-    .button {
+    .nav-button {
         a {
             font-size: 20px;
         }

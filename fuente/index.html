@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/body.css">
     <link rel="stylesheet" href="styles/footer.css">
     <script src="scripts/main.js" defer></script>
     <script src="scripts/videoLoad.js" defer></script>
@@ -17,7 +17,7 @@
 <body>
     <div class="background">
         <video autoplay muted loop preload="auto" id="backgroundVideo">
-            <source src="media/video/bgVideo-bait.mp4" type="video/mp4">
+            <source src="./media/video/bgVideo-bait.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -27,7 +27,7 @@
                 <div class="logo_title">
                     <div class="logo_title_content">
                         <a href="index.html">
-                            <img src="media/img/icons/logo-bright.png" alt="logo" class="logo">
+                            <img src="./media/img/icons/logo-bright.png" alt="logo" class="logo">
                             <div class="title">
                                 <span>Space Blog</span>
                             </div>
@@ -38,27 +38,27 @@
                     <div class="nav_menu">
                         <ul>
                             <li>
-                                <div class="button">
+                                <div class="nav-button">
                                     <a href="#" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">Blog</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="button">
+                                <div class="nav-button">
                                     <a href="pages/news.html">News</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="button">
+                                <div class="nav-button">
                                     <a href="pages/gallery.html">Gallery</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="button">
+                                <div class="nav-button">
                                     <a href="pages/about.html">About</a>
                                 </div>
                             </li>
                             <li>
-                                <div class="button">
+                                <div class="nav-button">
                                     <button class="surprise">Surprise me!</button>
                                 </div>
                             </li>
@@ -73,7 +73,7 @@
     </header>
 
     <main>
-        <img src="media/img/resized/bgImage-1080.jpg" alt="background" id="backgroundImage">
+        <img src="./media/img/resized/bgImage-1080.jpg" alt="background" id="backgroundImage">
         <div class="welcoming">
             <div class="welcoming-heading">
                 <h1>Welcome to Space</h1>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="visit-blog-icon">
                         <button class="visit-blog-arrow" onclick="window.scrollTo({top: 750, behavior: 'smooth'});">
-                            <img src="media/img/icons/arrow-down.svg" alt="arrow-down">
+                            <img src="./media/img/icons/arrow-down.svg" alt="arrow-down">
                         </button>
                     </div>
                 </div>
@@ -110,10 +110,10 @@
                 <div class="blog_entry">
                     <div class="entry_image">
                         <picture>
-                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="media/img/resized/liftOff2-360.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="media/img/resized/liftOff2-720.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="media/img/resized/liftOff2-1080.jpg" />
-                            <img src="media/img/resized/liftOff2-1600.jpg" alt="An amazing liftoff image" />
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./media/img/resized/liftOff2-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./media/img/resized/liftOff2-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="./media/img/resized/liftOff2-1080.jpg" />
+                            <img src="./media/img/resized/liftOff2-1600.jpg" alt="An amazing liftoff image" />
                         </picture>
                     </div>
                     <div class="entry_content">
@@ -141,10 +141,10 @@
                 <div class="blog_entry">
                     <div class="entry_image">
                         <picture>
-                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="media/img/resized/eclipse-360.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="media/img/resized/eclipse-720.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="media/img/resized/eclipse-1080.jpg" />
-                            <img src="media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./media/img/resized/eclipse-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./media/img/resized/eclipse-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="./media/img/resized/eclipse-1080.jpg" />
+                            <img src="./media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
                         </picture>
                     </div>
                     <div class="entry_content">
@@ -171,10 +171,10 @@
                 <div class="blog_entry">
                     <div class="entry_image">
                         <picture>
-                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="media/img/resized/eclipse-360.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="media/img/resized/eclipse-720.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="media/img/resized/eclipse-1080.jpg" />
-                            <img src="media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./media/img/resized/eclipse-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./media/img/resized/eclipse-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="./media/img/resized/eclipse-1080.jpg" />
+                            <img src="./media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
                         </picture>
                     </div>
                     <div class="entry_content">
@@ -201,10 +201,10 @@
                 <div class="blog_entry">
                     <div class="entry_image">
                         <picture>
-                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="media/img/resized/eclipse-360.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="media/img/resized/eclipse-720.jpg" />
-                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="media/img/resized/eclipse-1080.jpg" />
-                            <img src="media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
+                            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./media/img/resized/eclipse-360.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./media/img/resized/eclipse-720.jpg" />
+                            <source type="image/jpeg"  media="(min-width: 1200px) and (max-width: 1799px)" srcset="./media/img/resized/eclipse-1080.jpg" />
+                            <img src="./media/img/resized/eclipse-1600.jpg" alt="An amazing solar eclipse image" />
                         </picture>
                     </div>
                     <div class="entry_content">
@@ -238,7 +238,7 @@
                 <div class="footer_title">
                     <div class="footer_title_content">
                         <a href="index.html">
-                            <img src="media/img/icons/logo-bright.png" alt="logo" class="footer_logo">
+                            <img src="./media/img/icons/logo-bright.png" alt="logo" class="footer_logo">
                             <div class="footer_title">
                                 Space Blog
                             </div>
@@ -249,17 +249,17 @@
                     <ul>
                         <li>
                             <a href="https://www.facebook.com/" target="_blank">
-                                <img src="media/img/icons/facebook.svg" alt="facebook">
+                                <img src="./media/img/icons/facebook.svg" alt="facebook">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <img src="media/img/icons/instagram.svg" alt="instagram">
+                                <img src="./media/img/icons/instagram.svg" alt="instagram">
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/" target="_blank">
-                                <img src="media/img/icons/twitter.svg" alt="twitter">
+                                <img src="./media/img/icons/twitter.svg" alt="twitter">
                             </a>
                         </li>
                     </ul>
@@ -267,7 +267,7 @@
                 <div class="author">
                     <div class="github">
                         <a href="https://github.com/DavNotDab">
-                            <img src="media/img/icons/github.svg" alt="logo_github" class="gitLogo">
+                            <img src="./media/img/icons/github.svg" alt="logo_github" class="gitLogo">
                             <span id="name">DavNotDab</span>
                         </a>
                     </div>
