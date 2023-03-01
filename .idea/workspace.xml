@@ -4,106 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Completed scss transition">
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/bgImage-1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/logo-bright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/bgImage-1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/dawn-1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/dawn-1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/dawn-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/dawn-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/eclipse-1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/eclipse-1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/eclipse-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/eclipse-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff-1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff-1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff2-1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff2-1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff2-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOff2-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/backgroundStars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/dawn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/dawn2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/eclipse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/liftOff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/original/liftOff2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/video/bgVideo-1080.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/video/bgVideo-360.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/video/bgVideo-480.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/video/bgVideo-720.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/video/bgVideo-bait.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/pages/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/_layout-footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/_layout-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/principal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/principal.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/styles/principal.scss" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Rebuilt filesystem &amp; added prod build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_SCSS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/bgImage-1600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/arrow-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/logo-bright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/icons/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/bgImage-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/dawn-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/dawn-1600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/dawn-360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/dawn-720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/eclipse-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/eclipse-1600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/eclipse-360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/eclipse-720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff-1600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff-360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff-720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff2-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff2-1600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff2-360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/resized/liftOff2-720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/backgroundStars.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/dawn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/dawn2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/eclipse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/liftOff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/original/liftOff2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/video/bgVideo-1080.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/video/bgVideo-360.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/video/bgVideo-480.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/video/bgVideo-720.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/video/bgVideo-bait.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/videoLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/scripts/videoLoad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/media/img/bgImage-1600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/pages/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/body.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,26 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/David/OneDrive/DAW/SEGUNDO/Diseño de Interfaces/Space_Blog/fuente/styles",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/OneDrive/DAW/SEGUNDO/Diseño de Interfaces/Space_Blog/fuente/styles&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\OneDrive\DAW\SEGUNDO\Diseño de Interfaces\Space_Blog\fuente\styles" />
@@ -270,7 +178,16 @@
       <workItem from="1676636398564" duration="645000" />
       <workItem from="1676637076074" duration="64000" />
       <workItem from="1676637164529" duration="1784000" />
-      <workItem from="1676639073065" duration="1677000" />
+      <workItem from="1676639073065" duration="2061000" />
+      <workItem from="1676766766647" duration="29000" />
+      <workItem from="1676812305760" duration="542000" />
+      <workItem from="1677022461733" duration="7000" />
+      <workItem from="1677141060248" duration="17000" />
+      <workItem from="1677168594279" duration="108000" />
+      <workItem from="1677172637263" duration="6000" />
+      <workItem from="1677498770586" duration="11124000" />
+      <workItem from="1677590794000" duration="2571000" />
+      <workItem from="1677610486767" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -426,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676624903560</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Rebuilt filesystem &amp; added prod build">
+      <created>1676641117273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676641117273</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +385,7 @@
     <MESSAGE value="Polished mobile menu animation" />
     <MESSAGE value="Polished mobile menu animation &amp; sass implemented" />
     <MESSAGE value="Completed scss transition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed scss transition" />
+    <MESSAGE value="Rebuilt filesystem &amp; added prod build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuilt filesystem &amp; added prod build" />
   </component>
 </project>

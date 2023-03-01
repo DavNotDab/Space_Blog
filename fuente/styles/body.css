@@ -55,7 +55,7 @@ body {
   width: 400px;
 }
 
-.welcoming-heading {
+.welcoming-heading, .news-header {
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -169,39 +169,65 @@ h5 {
   margin: 30px 0;
 }
 
+.news-header {
+  align-self: center;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
 .slider-img {
-  width: auto;
-  height: auto;
+  max-width: 1000px;
+  max-height: 500px;
   margin: auto;
 }
 
 @media (min-width: 2000px) {
   body {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .welcoming {
     margin: 5% 0 0 4%;
     width: 30vw;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-weight: 400;
     letter-spacing: 1px;
   }
   .blog-content {
     gap: 100px;
   }
+  .article_content {
+    margin: 0 20%;
+  }
+  .article_main p {
+    font-size: 20px;
+  }
 }
 @media (min-width: 2600px) {
   body {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .welcoming {
     margin: 5% 0 0 4%;
     width: 800px;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header, .news-header {
     font-weight: 400;
     letter-spacing: 1px;
+  }
+  .article_content {
+    margin: 0 28%;
+  }
+  .article_main p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 3200px) {
+  .article_content {
+    margin: 0 30%;
+  }
+  .article_main p {
+    font-size: 28px;
   }
 }
 @media (max-width: 1500px) {
@@ -209,7 +235,7 @@ h5 {
     margin: 5% 0 0 4%;
     width: 400px;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
@@ -220,7 +246,7 @@ h5 {
     margin: 4% 0 0 3%;
     width: 330px;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
@@ -231,7 +257,7 @@ h5 {
     margin: 4% 0 0 3%;
     width: 330px;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-size: 14px;
   }
   .welcoming-content {
@@ -268,7 +294,7 @@ h5 {
   .welcoming-content {
     font-size: 2vw;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-size: 2vw;
   }
   .blog {
@@ -293,7 +319,7 @@ h5 {
   .welcoming-content {
     font-size: 12px;
   }
-  .welcoming-heading {
+  .welcoming-heading, .news-header {
     font-size: 12px;
   }
   .blog {
