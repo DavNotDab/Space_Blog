@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="../scripts/main.js" defer></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" async defer type="module"></script>
+</head>
+<body class="about-body">
+<header>
+    <div class="menu">
+        <nav class="menu-content">
+            <div class="logo-title">
+                <div class="logo-title-content">
+                    <a href="../index.html">
+                        <img src="./../media/img/icons/logo-bright.png" alt="logo" class="logo">
+                        <div class="title">
+                            <span>Space Blog</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-content">
+                <div class="nav-menu">
+                    <ul>
+                        <li>
+                            <div class="nav-button">
+                                <a href="../index.html#blog">Blog</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="./news.html">News</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="./gallery.html">Gallery</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="#">About</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <button class="surprise" onclick="randomPath()">Surprise me!</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn--burger"></div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="container d-flex flex-column justify-content-center my-5">
+
+    <div class="container text-center p-2 mt-3">
+        <h1>ABOUT</h1>
+    </div>
+
+    <div class="container-sm row mx-auto justify-content-between align-items-center">
+        <div class="col-md-5 d-flex flex-column justify-content-center">
+            <h3 class="about-heading mb-3 fs-5">About Space Blog</h3>
+            <div class="about-content">
+                <p>This is a project born from a space geek wanting to share with the world how beautiful Space is.</p>
+                <p>
+                    My name is David, I’ve been fan of Space and the universe from childhood.
+                    I could talk about these things for hours, and I’m so passionate about it that I don’t even notice.
+                    I think people should know more about Space and the universe, and that’s why I created this blog.
+                </p>
+                <p>
+                    People, and especially teenagers nowadays are so focused on their phones and social media that they
+                    don’t even notice the beauty of the world around them. I want to change that.
+                </p>
+                <p>
+                    Check out our social media to keep up to date!
+                </p>
+                <div class="social-media d-flex justify-content-center gap-4 fs-3">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 d-flex flex-column justify-content-center">
+            <h3 class="contact-heading mb-3 fs-5">Contact us</h3>
+            <form>
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="contact-name">Name</label>
+                    <input type="text" id="contact-name" class="form-control" />
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="contact-email">Email address</label>
+                    <input type="email" id="contact-email" class="form-control" />
+                </div>
+
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="contact-message">Message</label>
+                    <textarea class="form-control" id="contact-message" rows="4"></textarea>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block contact-submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-title">
+                <div class="footer-title-content">
+                    <a href="../index.html">
+                        <div class="footer-logo">
+                            <img src="./../media/img/icons/logo-bright.png" alt="logo SpaceBlog">
+                        </div>
+                        <div class="footer-title">
+                            Space Blog
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-socialMedia">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" target="-blank">
+                            <img src="./../media/img/icons/facebook.svg" alt="logo facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="-blank">
+                            <img src="./../media/img/icons/instagram.svg" alt="logo instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="-blank">
+                            <img src="./../media/img/icons/twitter.svg" alt="logo twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="author">
+                <div class="github">
+                    <a href="https://github.com/DavNotDab">
+                        <img src="./../media/img/icons/github.svg" alt="logo github" class="gitLogo">
+                        <span id="name">DavNotDab</span>
+                    </a>
+                </div>
+                <div class="copy">
+                    <span>&copy; David Ballesteros Ortiz</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 
 // Toggle Menu
 const menuBtn = document.querySelector('.menu-btn');
-const nav_content = document.querySelector('.nav_content');
+const nav_content = document.querySelector('.nav-content');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
     if(!menuOpen) {
@@ -16,3 +16,22 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
+function randomPath() {
+    let random = Math.floor(Math.random() * 4) + 1;
+    switch (random) {
+        case 1:
+            window.location.href = "../pages/blog.html";
+            break;
+        case 2:
+            window.location.href = "../pages/news.html";
+            break;
+        case 3:
+            window.location.href = "../pages/gallery.html";
+            break;
+        case 4:
+            window.location.href = "../pages/about.html";
+            break;
+        default:
+            window.location.href = "../index.html#blog";
+    }
+}

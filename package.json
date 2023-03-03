@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
-    "parcel:des": "parcel fuente/index.html",
-    "parcel:prod": "parcel build fuente/index.html --public-url './'",
+    "parcel:des": "parcel fuente/index.html --no-cache",
+    "parcel:prod": "parcel build fuente/index.html --no-cache",
     "clear": "rimraf dist .cache .parcel-cache .cache-loader",
     "des": "npm-run-all clear parcel:des",
     "prod": "npm-run-all clear parcel:prod"

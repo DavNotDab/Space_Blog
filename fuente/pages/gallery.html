@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/body.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="../scripts/main.js" defer></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" async defer type="module"></script>
+</head>
+<body>
+<header>
+    <div class="menu">
+        <nav class="menu-content">
+            <div class="logo-title">
+                <div class="logo-title-content">
+                    <a href="../index.html">
+                        <img src="./../media/img/icons/logo-bright.png" alt="logo" class="logo">
+                        <div class="title">
+                            <span>Space Blog</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-content">
+                <div class="nav-menu">
+                    <ul>
+                        <li>
+                            <div class="nav-button">
+                                <a href="../index.html#blog">Blog</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="./news.html">News</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="#">Gallery</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <a href="about.html">About</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-button">
+                                <button class="surprise" onclick="randomPath()">Surprise me!</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn--burger"></div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="container d-flex flex-column justify-content-center">
+
+    <div class="container text-center p-2 my-4">
+        <h1>GALLERY</h1>
+    </div>
+
+    <div class="container d-flex justify-content-center flex-wrap mb-5 nav-button gallery-nav">
+        <button>PLANETS</button>
+        <button>NEBULAE</button>
+        <button>SPACECRAFTS</button>
+        <button>GALAXIES</button>
+        <button>OTHERS</button>
+    </div>
+
+    <div class="container-fluid my-5 gallery-content">
+        <img id="img1" class="image" src="./../media/img/resized/blueNebula-960.jpg" alt="blue nebula image">
+        <img id="img2" class="image" src="./../media/img/resized/colorfulGalaxy-960.jpg" alt="colorful galaxy image">
+        <img id="img3" class="image" src="./../media/img/resized/nebulaGalaxy-960.jpg" alt="galaxy in nebula image">
+        <img id="img4" class="image" src="./../media/img/resized/liftOffRay-960.jpg" alt="rocket liftoff leaving tray image">
+        <img id="img5" class="image" src="./../media/img/resized/galaxy-960.jpg" alt="big galaxy image">
+        <img id="img6" class="image" src="./../media/img/resized/moon-960.jpg" alt="moon image">
+        <img id="img7" class="image" src="./../media/img/resized/mountainStars-960.jpg" alt="stars above a mountain image">
+    </div>
+
+
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-title">
+                <div class="footer-title-content">
+                    <a href="../index.html">
+                        <div class="footer-logo">
+                            <img src="./../media/img/icons/logo-bright.png" alt="logo">
+                        </div>
+                        <div class="footer-title">
+                            Space Blog
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-socialMedia">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/" target="-blank">
+                            <img src="./../media/img/icons/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="-blank">
+                            <img src="./../media/img/icons/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="-blank">
+                            <img src="./../media/img/icons/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="author">
+                <div class="github">
+                    <a href="https://github.com/DavNotDab">
+                        <img src="./../media/img/icons/github.svg" alt="logo-github" class="gitLogo">
+                        <span id="name">DavNotDab</span>
+                    </a>
+                </div>
+                <div class="copy">
+                    <span>&copy; David Ballesteros Ortiz</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

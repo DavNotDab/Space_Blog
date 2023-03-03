@@ -1,8 +1,8 @@
-$color_1: var(--accent-color);
-$font-family_1: var(--font-family);
-$background-color_1: rgba(0, 0, 0, 0.9);
-$background-color_2: var(--light-color);
-$background-color_3: transparent;
+$color-1: var(--accent-color);
+$font-family-1: var(--font-family);
+$background-color-1: rgba(0, 0, 0, 0.9);
+$background-color-2: var(--light-color);
+$background-color-3: transparent;
 
 @keyframes open-menu {
     0% {
@@ -33,13 +33,13 @@ root {
 }
 .menu {
     padding: 25px 40px;
-    .menu_content {
+    .menu-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    .nav_content {
+    .nav-content {
         flex-direction: row;
     }
 }
@@ -55,12 +55,12 @@ root {
     cursor: pointer;
     transition: all 0.5s cubic-bezier(0, 0.1, 0, 0.9);
 }
-.menu-btn__burger {
+.menu-btn--burger {
     width: 30px;
     height: 3px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(45, 45, 45, 0.2);
-    background-color: $background-color_2;
+    background-color: $background-color-2;
     transition: all 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     &::before {
         content: "";
@@ -69,7 +69,7 @@ root {
         height: 3px;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(45, 45, 45, 0.2);
-        background-color: $background-color_2;
+        background-color: $background-color-2;
         transition: all 0.5s cubic-bezier(0, 0.1, 0, 0.9);
         transform: translateY(-10px);
     }
@@ -80,15 +80,15 @@ root {
         height: 3px;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(45, 45, 45, 0.2);
-        background-color: $background-color_2;
+        background-color: $background-color-2;
         transition: all 0.5s cubic-bezier(0, 0.1, 0, 0.9);
         transform: translateY(10px);
     }
 }
 .menu-btn.open {
-    .menu-btn__burger {
+    .menu-btn--burger {
         transform: rotate(225deg);
-        background-color: $background-color_3;
+        background-color: $background-color-3;
         &::before {
             transform: rotate(0) translate(0, 0);
         }
@@ -97,7 +97,7 @@ root {
         }
     }
 }
-.logo_title_content {
+.logo-title-content {
     a {
         display: flex;
         flex-direction: row;
@@ -114,13 +114,13 @@ root {
     height: 60px;
 }
 .title {
-    font-family: $font-family_1;
+    font-family: $font-family-1;
     font-size: 2.6vw;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.nav_menu {
+.nav-menu {
     ul {
         list-style: none;
         display: flex;
@@ -132,9 +132,9 @@ root {
 .nav-button {
     a {color: var(--light-color)}
     padding: 0 20px;
-    a, .surprise {
+    a, .surprise, button {
         text-decoration: none;
-        font-family: $font-family_1;
+        font-family: $font-family-1;
         font-size: 24px;
         font-weight: 500;
         text-transform: uppercase;
@@ -156,7 +156,7 @@ root {
     }
 }
 .surprise {
-    color: $color_1;
+    color: $color-1;
 }
 @media (min-width: 2400px) {
     .title {
@@ -165,7 +165,7 @@ root {
     .menu {
         padding: 25px 40px;
     }
-    .nav_menu {
+    .nav-menu {
         ul {
             gap: 60px;
             padding: 0 35px;
@@ -192,7 +192,7 @@ root {
     .menu {
         padding: 15px 30px;
     }
-    .nav_menu {
+    .nav-menu {
         ul {
             gap: 30px;
             padding: 0 20px;
@@ -228,7 +228,7 @@ root {
             font-size: 20px;
         }
     }
-    .nav_menu {
+    .nav-menu {
         ul {
             gap: 10px;
             padding: 0;
@@ -249,7 +249,7 @@ root {
             font-size: 18px;
         }
     }
-    .nav_menu {
+    .nav-menu {
         ul {
             gap: 0;
             margin: 5px 0;
@@ -280,10 +280,10 @@ root {
     .title {
         font-size: 4vw;
     }
-    .logo_title {
+    .logo-title {
         padding: 15px 20px;
     }
-    .nav_content {
+    .nav-content {
         display: none;
         position: absolute;
         top: 0;
@@ -292,12 +292,12 @@ root {
         align-items: flex-end;
         animation: close-menu 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     }
-    .nav_content.active {
+    .nav-content.active {
         display: flex;
-        background-color: $background-color_1;
+        background-color: $background-color-1;
         animation: open-menu 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     }
-    .nav_menu {
+    .nav-menu {
         ul {
             flex-direction: column;
             gap: 20px;
@@ -313,7 +313,7 @@ root {
             font-size: 20px;
         }
     }
-    .burger_menu_icon {
+    .burger-menu-icon {
         display: block;
     }
 }

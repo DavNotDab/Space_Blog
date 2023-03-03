@@ -1,6 +1,6 @@
-$color_1: black;
-$font-family_1: var(--font-family);
-$background-color_1: var(--darkish-color);
+$color-1: black;
+$font-family-1: var(--font-family);
+$background-color-1: var(--darkish-color);
 
 :root {
     --dark-color: #1D1A1D;
@@ -10,7 +10,7 @@ $background-color_1: var(--darkish-color);
     --font-family: 'Kanit', sans-serif;
 }
 footer {
-    background-color: $background-color_1;
+    background-color: $background-color-1;
     bottom: 0;
     img {
         width: 40px;
@@ -18,14 +18,14 @@ footer {
         margin: 10px;
     }
 }
-.footer_content {
+.footer-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
 }
-.footer_title_content {
+.footer-title-content {
     a {
         display: flex;
         flex-direction: row;
@@ -38,8 +38,8 @@ footer {
         cursor: pointer;
     }
 }
-.footer_title {
-    font-family: $font-family_1;
+.footer-title {
+    font-family: $font-family-1;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
@@ -62,13 +62,13 @@ footer {
         display: flex;
         align-items: center;
         text-decoration: underline;
-        color: $color_1;
+        color: $color-1;
     }
 }
 .gitLogo {
     margin: 0;
 }
-.footer_socialMedia {
+.footer-socialMedia {
     ul {
         display: flex;
         flex-direction: row;
@@ -80,12 +80,12 @@ footer {
     }
 }
 @media (min-width: 2000px) {
-    .footer_content {
+    .footer-content {
         padding: 40px;
     }
 }
 @media (max-width: 1200px) {
-    .footer_socialMedia {
+    .footer-socialMedia {
         ul {
             gap: 10px;
         }
@@ -96,15 +96,15 @@ footer {
     }
 }
 @media (max-width: 800px) {
-    .footer_title_content {
+    .footer-title-content {
         a {
             gap: 0;
         }
     }
-    .footer_title {
+    .footer-title {
         font-size: 20px;
     }
-    .footer_socialMedia {
+    .footer-socialMedia {
         ul {
             gap: 0;
         }
@@ -115,7 +115,7 @@ footer {
     }
 }
 @media (max-width: 600px) {
-    .footer_content {
+    .footer-content {
         flex-direction: column;
     }
     .author {
