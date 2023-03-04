@@ -81,13 +81,41 @@
     </div>
 
     <div class="container-fluid my-5 gallery-content">
-        <img id="img1" class="image" src="./../media/img/resized/blueNebula-960.jpg" alt="blue nebula image">
-        <img id="img2" class="image" src="./../media/img/resized/colorfulGalaxy-960.jpg" alt="colorful galaxy image">
-        <img id="img3" class="image" src="./../media/img/resized/nebulaGalaxy-960.jpg" alt="galaxy in nebula image">
-        <img id="img4" class="image" src="./../media/img/resized/liftOffRay-960.jpg" alt="rocket liftoff leaving tray image">
-        <img id="img5" class="image" src="./../media/img/resized/galaxy-960.jpg" alt="big galaxy image">
-        <img id="img6" class="image" src="./../media/img/resized/moon-960.jpg" alt="moon image">
-        <img id="img7" class="image" src="./../media/img/resized/mountainStars-960.jpg" alt="stars above a mountain image">
+        <picture id="img1">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/blueNebula-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/blueNebula-720.jpg" />
+            <img class="image" src="./../media/img/resized/blueNebula-960.jpg" alt="blue nebula image">
+        </picture>
+        <picture id="img2">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/colorfulGalaxy-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/colorfulGalaxy-720.jpg" />
+            <img class="image" src="./../media/img/resized/colorfulGalaxy-960.jpg" alt="colorful galaxy image">
+        </picture>
+        <picture id="img3">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/nebulaGalaxy-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/nebulaGalaxy-720.jpg" />
+            <img class="image" src="./../media/img/resized/nebulaGalaxy-960.jpg" alt="galaxy in nebula image">
+        </picture>
+        <picture id="img4">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/liftOffRay-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/liftOffRay-720.jpg" />
+            <img class="image" src="./../media/img/resized/liftOffRay-960.jpg" alt="rocket liftoff leaving tray image">
+        </picture>
+        <picture id="img5">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/galaxy-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/galaxy-720.jpg" />
+            <img class="image" src="./../media/img/resized/galaxy-960.jpg" alt="big galaxy image">
+        </picture>
+        <picture id="img6">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/moon-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/moon-720.jpg" />
+            <img class="image" src="./../media/img/resized/moon-960.jpg" alt="moon image">
+        </picture>
+        <picture id="img7">
+            <source type="image/jpeg"  media="(max-width: 799px)" srcset="./../media/img/resized/mountainStars-360.jpg" />
+            <source type="image/jpeg"  media="(min-width: 800px) and (max-width: 1199px)" srcset="./../media/img/resized/mountainStars-720.jpg" />
+            <img class="image" src="./../media/img/resized/mountainStars-960.jpg" alt="stars above a mountain image">
+        </picture>
     </div>
 
 

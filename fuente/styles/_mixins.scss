@@ -1,10 +1,12 @@
 @import "./variables.scss";
+// Mixin para crear un display: flex row centrado
 @mixin flex-row-center {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+// Mixin para mover los divs del icono de la hamburguesa arriba o abajo
 @mixin traslateY($y: 0) {
     content: "";
     position: absolute;
@@ -16,15 +18,18 @@
     transition: all 0.5s cubic-bezier(0, 0.1, 0, 0.9);
     transform: translateY($y);
 }
+// Mixin para aplicar padding, margin y gap
 @mixin gap-padding-margin($gap: 0, $padding: 0, $margin: 0) {
     gap: $gap;
     padding: $padding;
     margin: $margin;
 }
+// Mixin para crear un display: flex column
 @mixin flex-column {
     display: flex;
     flex-direction: column;
 }
+// Mixin para crear un elemento cuadrado
 @mixin square($size: 100px) {
     width: $size;
     height: $size;

@@ -801,7 +801,10 @@ h3 {
     text-align: center;
   }
   .gallery-nav {
-    max-width: 350px;
+    max-width: 300px;
+  }
+  .gallery-nav button {
+    font-size: 18px;
   }
 }
 @media (max-width: 450px) {
