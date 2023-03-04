@@ -1,0 +1,14 @@
+@import "./variables.scss";
+* {
+    padding: 0;
+    border: 0;
+    color: $color-1;
+    background: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: $font-family-1;
+    background-image: url(./../media/img/resized/bgImage-1080.jpg);
+    background-size: 100vw;
+}

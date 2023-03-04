@@ -4,37 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Added images">
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/blueNebula-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/colorfulGalaxy-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/galaxy-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOffRay-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/moon-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/mountainStars-960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/nebulaGalaxy-960.jpg" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Added gallery &amp; about pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/blueNebula.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/blueNebula.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/colorfulGalaxy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/colorfulGalaxy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/galaxy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/galaxy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/liftOffRay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/liftOffRay.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/moon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/moon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/mountainStars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/mountainStars.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/media/original/Gallery/nebulaGalaxy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/media/original/Gallery/nebulaGalaxy.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/pages/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuente/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/body.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -218,7 +211,9 @@
       <workItem from="1677743308118" duration="3000" />
       <workItem from="1677744081665" duration="1411000" />
       <workItem from="1677746210843" duration="20185000" />
-      <workItem from="1677843904977" duration="5497000" />
+      <workItem from="1677843904977" duration="6177000" />
+      <workItem from="1677860612206" duration="5679000" />
+      <workItem from="1677943988087" duration="1809000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -395,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677672609568</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added gallery &amp; about pages">
+      <created>1677850042683</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850042683</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +435,7 @@
     <MESSAGE value="Rebuilt filesystem &amp; added prod build" />
     <MESSAGE value="Finished news page" />
     <MESSAGE value="Added images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images" />
+    <MESSAGE value="Added gallery &amp; about pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gallery &amp; about pages" />
   </component>
 </project>
