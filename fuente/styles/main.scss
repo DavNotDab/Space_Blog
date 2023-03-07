@@ -1,3 +1,8 @@
-@import "./header.scss";
-@import "./body.scss";
-@import "./footer.scss";
+@import "variables";
+@import "mixins";
+@import "layout-header";
+@import "layout-body";
+@import "layout-footer";
+@import "header";
+@import "body";
+@import "footer";

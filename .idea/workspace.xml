@@ -4,29 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Reworked styles">
-      <change afterPath="$PROJECT_DIR$/docs/WEBSITE REQUIREMENTS DOCUMENT (1).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/blueNebula-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/blueNebula-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/colorfulGalaxy-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/colorfulGalaxy-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/galaxy-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/galaxy-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOffRay-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/liftOffRay-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/moon-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/moon-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/mountainStars-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/mountainStars-720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/nebulaGalaxy-360.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuente/media/img/resized/nebulaGalaxy-720.jpg" afterDir="false" />
+    <list default="true" id="9adad16d-ea78-4049-aacd-59f974f1d7c2" name="Changes" comment="Images optimized">
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/pages/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/pages/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/scripts/videoLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/scripts/videoLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_layout-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_layout-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/body.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/body.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/header.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuente/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuente/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fuente/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +217,8 @@
       <workItem from="1677860612206" duration="5679000" />
       <workItem from="1677943988087" duration="6878000" />
       <workItem from="1677953824586" duration="210000" />
-      <workItem from="1677954935041" duration="4462000" />
+      <workItem from="1677954935041" duration="6100000" />
+      <workItem from="1678091163666" duration="13004000" />
     </task>
     <task id="LOCAL-00001" summary="Added first version of landing page">
       <created>1668674614614</created>
@@ -405,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677949107628</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Images optimized">
+      <created>1677961776123</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677961776123</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +442,6 @@
     <MESSAGE value="Added blog's article page" />
     <MESSAGE value="Polished some details &amp; minor errors" />
     <MESSAGE value="Improved accessibility" />
-    <MESSAGE value="Images optimized" />
     <MESSAGE value="Added burger menu icons" />
     <MESSAGE value="Improved responsibility" />
     <MESSAGE value="Improved responsiveness" />
@@ -445,6 +455,7 @@
     <MESSAGE value="Added images" />
     <MESSAGE value="Added gallery &amp; about pages" />
     <MESSAGE value="Reworked styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reworked styles" />
+    <MESSAGE value="Images optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images optimized" />
   </component>
 </project>

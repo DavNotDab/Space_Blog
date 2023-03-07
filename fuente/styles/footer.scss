@@ -1,20 +1,19 @@
-@import "./variables.scss";
-@import "./mixins.scss";
-@import "./layout-footer.scss";
 
+// Basic styling for the footer
+footer {
+    background-color: $color-3;
+    img {
+        @include square(40px);
+        margin: 10px;
+    }
+}
 .footer-content {
-    @include flex-row-center;
-    justify-content: space-around;
     padding: 20px;
 }
+// Links in the footer won't have an underline
 .footer-title-content {
     a {
-        @include flex-row-center;
-        gap: 10px;
         text-decoration: none;
-    }
-    &:hover {
-        cursor: pointer;
     }
 }
 .footer-title {
@@ -23,22 +22,13 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-.author {
-    @include flex-row-center;
-    justify-content: space-around;
-    gap: 40px;
-}
-.copy {
-    display: flex;
-    align-items: center;
-    text-align: center;
+    // The font size will be smaller in mobile/tablet devices
+    @media (max-width: 800px) {
+        font-size: 20px;
+    }
 }
 .github {
     a {
-        display: flex;
-        align-items: center;
-        text-decoration: underline;
         color: $color-4;
     }
 }
@@ -47,52 +37,7 @@
 }
 .footer-socialMedia {
     ul {
-        @include flex-row-center;
-        gap: 20px;
         list-style: none;
         margin: 0;
-    }
-}
-@media (min-width: 2000px) {
-    .footer-content {
-        padding: 40px;
-    }
-}
-@media (max-width: 1200px) {
-    .footer-socialMedia {
-        ul {
-            gap: 10px;
-        }
-    }
-    .author {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-@media (max-width: 800px) {
-    .footer-title-content {
-        a {
-            gap: 0;
-        }
-    }
-    .footer-title {
-        font-size: 20px;
-    }
-    .footer-socialMedia {
-        ul {
-            gap: 0;
-        }
-    }
-    .author {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-@media (max-width: 600px) {
-    .footer-content {
-        flex-direction: column;
-    }
-    .author {
-        flex-direction: row;
     }
 }
